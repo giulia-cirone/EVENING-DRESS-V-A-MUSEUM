@@ -39,12 +39,12 @@ Progetto di analisi dati e storia del costume dedicato agli abiti da sera conser
 * `descrizione_indossatrici_e_occasioni.txt`: sintesi discorsiva in italiano su committenza, profilo sociale e occasioni d'uso.
 * `sintesi_stilistica_anni50_vs_anni60.txt`: sintesi critica in italiano sull'evoluzione delle silhouette e delle tecniche di confezione tra anni '50 e anni '60.
 
-### 3. Visualizzazioni e Tabelle (CSV, JPG e PNG)
+### 3. Visualizzazioni e Tabelle (PNG)
 
 #### Fase 1 — Composizione generale dell'archivio (analisi esplorativa iniziale)
-* `provenienza geografica.jpg`: grafico a torta sulla distribuzione geografica complessiva dell'archivio (Regno Unito 46,7%, Francia 41,4%, Stati Uniti 4,7%, Italia 3,2%, ecc.).
-* `datazione archivio.jpg` / `datazione archivio.png`: istogramma impilato per decenni (dal 1760 al 2010) con suddivisione per provenienza geografica, allineato ai criteri cronologici delle analisi successive (**61** abiti francesi nel 1950 e **71** nel 1960, con picco complessivo di 134 capi nel decennio 1960).
-* `designer più frequenti.jpg`: grafico a barre orizzontali sui 20 designer più ricorrenti e sul peso degli abiti senza designer assegnato (*Ignoti / Unknown*: 130 capi su 783, pari al 16,6%, su un totale di 225 designer distinti censiti).
+* `provenienza geografica.png`: grafico a torta sulla distribuzione geografica complessiva dell'archivio (Regno Unito 46,7%, Francia 41,4%, Stati Uniti 4,7%, Italia 3,2%, ecc.).
+* `datazione archivio.png` / `datazione archivio.png`: istogramma impilato per decenni (dal 1760 al 2010) con suddivisione per provenienza geografica, allineato ai criteri cronologici delle analisi successive (**61** abiti francesi nel 1950 e **71** nel 1960, con picco complessivo di 134 capi nel decennio 1960).
+* `designer più frequenti.png`: grafico a barre orizzontali sui 20 designer più ricorrenti e sul peso degli abiti senza designer assegnato (*Ignoti / Unknown*: 130 capi su 783, pari al 16,6%, su un totale di 225 designer distinti censiti).
 
 #### Fase 2 — Approfondimento biografico, materiali e analisi Francia 1950–1969
 * `tabella_top20_designer.png`: tabella riepilogativa dei 20 designer più frequenti dell'archivio con luogo di nascita, nazione di attività e periodo di carriera.
