@@ -63,8 +63,8 @@ Progetto di analisi dati e storia del costume dedicato agli abiti da sera conser
 * **Linguaggio**: Python 3.x (eseguibile tramite IDLE su macOS o da terminale).
 * **Librerie richieste**: moduli standard di Python (`csv`, `json`, `urllib`, `re`, `html`, `collections`, `textwrap`, `ssl`, `time`) e `matplotlib` per la generazione dei grafici e delle tabelle.
 * **Ordine consigliato di esecuzione**:
-  1. Analisi esplorativa iniziale dell'archivio (`provenienza geografica.jpg`, `datazione archivio.jpg`, `designer più frequenti.jpg`).
-  2. Arricchimento del CSV con i dati V&A (`Materiali`, `Storia dell'oggetto`, `Riassunto`).
-  3. Estrazione biografica dei 20 designer più frequenti (`dati biografici 20 designer più diffusi.json` e relativa tabella).
+  1. Analisi esplorativa iniziale dell'archivio (`provenienza geografica.png`, `datazione archivio.png`, `designer più frequenti.png`).
+  2. Estrazione biografica dei 20 designer più frequenti (`dati biografici 20 designer più diffusi.json` e relativa tabella).
+  3. Arricchimento del CSV con i dati V&A (`Materiali`, `Storia dell'oggetto`, `Riassunto`).
   4. Analisi dei materiali, delle indossatrici/occasioni e del confronto stilistico anni '50 vs anni '60 (generazione dei file `.json`, `.txt` e `.png`).
   5. Generazione della pagina finale `report_evening_dresses_v&am.html`.
