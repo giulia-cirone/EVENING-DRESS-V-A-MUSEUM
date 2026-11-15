@@ -1,0 +1,162 @@
+[
+  {
+    "posizione": 1,
+    "designer": "Cristóbal Balenciaga",
+    "abiti_archivio": 32,
+    "luogo_nascita": "Getaria (Spagna)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "1937 - 1972"
+  },
+  {
+    "posizione": 2,
+    "designer": "Norman Hartnell",
+    "abiti_archivio": 19,
+    "luogo_nascita": "Londra (Regno Unito)",
+    "luogo_attivita": "Regno Unito",
+    "periodo_attivita": "1923 - 1979"
+  },
+  {
+    "posizione": 3,
+    "designer": "Hubert de Givenchy",
+    "abiti_archivio": 19,
+    "luogo_nascita": "Beauvais (Francia)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "1952 - 1995"
+  },
+  {
+    "posizione": 4,
+    "designer": "Christian Dior",
+    "abiti_archivio": 15,
+    "luogo_nascita": "Granville (Francia)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "1929 - 1957"
+  },
+  {
+    "posizione": 5,
+    "designer": "Edward Molyneux",
+    "abiti_archivio": 14,
+    "luogo_nascita": "Londra (Regno Unito)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "1919 - 1950"
+  },
+  {
+    "posizione": 6,
+    "designer": "Zandra Rhodes",
+    "abiti_archivio": 14,
+    "luogo_nascita": "Chatham (Regno Unito)",
+    "luogo_attivita": "Francia, Regno Unito",
+    "periodo_attivita": "2003 - oggi"
+  },
+  {
+    "posizione": 7,
+    "designer": "Elsa Schiaparelli",
+    "abiti_archivio": 14,
+    "luogo_nascita": "Roma (Italia)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "anni '10 - anni '70"
+  },
+  {
+    "posizione": 8,
+    "designer": "Yuki",
+    "abiti_archivio": 13,
+    "luogo_nascita": "Kobayashi (Giappone)",
+    "luogo_attivita": "Giappone, Regno Unito",
+    "periodo_attivita": "dagli anni '50"
+  },
+  {
+    "posizione": 9,
+    "designer": "Madeleine Vionnet",
+    "abiti_archivio": 13,
+    "luogo_nascita": "Chilleurs-aux-Bois (Francia)",
+    "luogo_attivita": "Francia, Regno Unito",
+    "periodo_attivita": "anni '90 - anni '70"
+  },
+  {
+    "posizione": 10,
+    "designer": "Victor Edelstein",
+    "abiti_archivio": 13,
+    "luogo_nascita": "Londra (Regno Unito)",
+    "luogo_attivita": "Regno Unito",
+    "periodo_attivita": "1970 - oggi"
+  },
+  {
+    "posizione": 11,
+    "designer": "Madame Grès",
+    "abiti_archivio": 12,
+    "luogo_nascita": "Parigi (Francia)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "anni '20 - anni '90"
+  },
+  {
+    "posizione": 12,
+    "designer": "Pierre Balmain",
+    "abiti_archivio": 12,
+    "luogo_nascita": "Saint-Jean-de-Maurienne (Francia)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "anni '30 - anni '80"
+  },
+  {
+    "posizione": 13,
+    "designer": "Yves Saint Laurent",
+    "abiti_archivio": 12,
+    "luogo_nascita": "Orano (Algeria)",
+    "luogo_attivita": "Francia, Regno Unito",
+    "periodo_attivita": "1955 - 2002"
+  },
+  {
+    "posizione": 14,
+    "designer": "Antonio Castillo",
+    "abiti_archivio": 11,
+    "luogo_nascita": "Madrid (Spagna)",
+    "luogo_attivita": "Francia, Stati Uniti",
+    "periodo_attivita": "1936 - 1984"
+  },
+  {
+    "posizione": 15,
+    "designer": "Ossie Clark",
+    "abiti_archivio": 11,
+    "luogo_nascita": "Warrington (Regno Unito)",
+    "luogo_attivita": "Regno Unito",
+    "periodo_attivita": "anni '60 - anni '90"
+  },
+  {
+    "posizione": 16,
+    "designer": "Marc Bohan",
+    "abiti_archivio": 11,
+    "luogo_nascita": "Parigi (Francia)",
+    "luogo_attivita": "Regno Unito, Francia",
+    "periodo_attivita": "1946 - 1992"
+  },
+  {
+    "posizione": 17,
+    "designer": "Callot Soeurs",
+    "abiti_archivio": 10,
+    "luogo_nascita": "Parigi (Francia)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "1895 - 1937"
+  },
+  {
+    "posizione": 18,
+    "designer": "Jeanne Lanvin",
+    "abiti_archivio": 10,
+    "luogo_nascita": "Parigi (Francia)",
+    "luogo_attivita": "Spagna, Francia",
+    "periodo_attivita": "1909 - 1946"
+  },
+  {
+    "posizione": 19,
+    "designer": "Jean Dessès",
+    "abiti_archivio": 8,
+    "luogo_nascita": "Alessandria d'Egitto (Egitto)",
+    "luogo_attivita": "Francia",
+    "periodo_attivita": "1929 - 1970"
+  },
+  {
+    "posizione": 20,
+    "designer": "Bill Gibb",
+    "abiti_archivio": 8,
+    "luogo_nascita": "New Pitsligo (Regno Unito)",
+    "luogo_attivita": "Regno Unito",
+    "periodo_attivita": "anni '60 - anni '80"
+  }
+]
