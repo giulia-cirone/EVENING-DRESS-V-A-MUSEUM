@@ -28,7 +28,8 @@ Progetto di analisi dati e storia del costume dedicato agli abiti da sera conser
 ## Struttura dei file del progetto
 
 ### 1. Dataset principali (CSV)
-* `evening_dresses_pulito.csv`: dataset iniziale ripulito con le informazioni essenziali dei capi.
+* `evening_dresses_iniziale.csv`: dataset iniziale ottenuto dall'API del V&A Museum.
+* `evening_dresses_pulito.csv`: dataset ripulito con le informazioni essenziali dei capi.
 * `evening_dresses_arricchito.csv`: dataset completo arricchito con le colonne `Materiali`, `Storia dell'oggetto` e `Riassunto`.
 
 ### 2. Dati strutturati e sintesi testuali (JSON e TXT)
@@ -46,7 +47,7 @@ Progetto di analisi dati e storia del costume dedicato agli abiti da sera conser
 * `designer più frequenti.jpg`: grafico a barre orizzontali sui 20 designer più ricorrenti e sul peso degli abiti senza designer assegnato (*Ignoti / Unknown*: 130 capi su 783, pari al 16,6%, su un totale di 225 designer distinti censiti).
 
 #### Fase 2 — Approfondimento biografico, materiali e analisi Francia 1950–1969
-* `tabella_top20_designer.csv` / `tabella_top20_designer.png`: tabella riepilogativa dei 20 designer più frequenti dell'archivio con luogo di nascita, nazione di attività e periodo di carriera.
+* `tabella_top20_designer.png`: tabella riepilogativa dei 20 designer più frequenti dell'archivio con luogo di nascita, nazione di attività e periodo di carriera.
 * `materiali_francia_1950_1969.png`: grafico a torta dei materiali più impiegati negli abiti francesi (1950–1969).
 * `indossatrici_e_occasioni_francia_1950_1969.png`: grafici a barre orizzontali su posizione sociale/professione e occasioni d'uso (1950–1969).
 * `confronto tra anni 50 e anni 60.png`: confronto comparativo tra 1950–1959 (61 abiti francesi) e 1960–1969 (71 abiti francesi) su profilo sociale e occasioni d'uso.
