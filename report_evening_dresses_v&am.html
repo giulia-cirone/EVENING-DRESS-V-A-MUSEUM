@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiti da Sera al Victoria and Albert Museum — Report di Sintesi</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: #222222;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 36px 40px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 1.9rem;
+            color: #1a2a3a;
+            margin-top: 0;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #1f4e78;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.35rem;
+            color: #1f4e78;
+            margin-top: 36px;
+            margin-bottom: 14px;
+            border-bottom: 1px solid #dcdcdc;
+            padding-bottom: 6px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: #333333;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0 24px 0;
+            font-size: 0.96rem;
+        }
+        th, td {
+            border: 1px solid #cccccc;
+            padding: 10px 14px;
+            text-align: left;
+        }
+        th {
+            background-color: #1f4e78;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        tr:nth-child(even) td {
+            background-color: #f6f8fa;
+        }
+        figure {
+            margin: 26px 0;
+            padding: 14px;
+            border: 1px solid #e2e2e2;
+            background-color: #fcfcfc;
+            border-radius: 4px;
+        }
+        figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-size: 0.92rem;
+            color: #555555;
+            font-style: italic;
+        }
+        .box-testo {
+            background-color: #f8fafc;
+            border-left: 4px solid #1f4e78;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 14px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.85rem;
+            color: #666666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Abiti da sera al Victoria and Albert Museum: l'alta moda francese (1950–1969)</h1>
+            <p>
+                Questo report sintetizza l'analisi computazionale e storico-artistica condotta sulla collezione di
+                abiti da sera conservati presso il <strong>Victoria and Albert Museum (V&amp;A)</strong> di Londra.
+                A partire dal dataset catalografico arricchito con le schede tecniche ufficiali del museo (materiali,
+                descrizioni fisiche e storia dell'oggetto), lo studio approfondisce in particolare la produzione
+                francese realizzata tra il <strong>1950 e il 1969</strong>, esaminandone i principali couturier,
+                l'impiego tessile, il profilo sociale delle committenti, le occasioni d'uso e l'evoluzione stilistica
+                tra anni Cinquanta e anni Sessanta.
+            </p>
+        </header>
+
+        <section id="dati">
+            <h2>Dati</h2>
+            <p>
+                La tabella seguente raccoglie i principali indicatori quantitativi ricavati dall'incrocio tra il
+                catalogo generale e i file strutturati dedicati al nucleo francese del ventennio 1950–1969.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Indicatore</th>
+                        <th>Valore rilevato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Numero totale di abiti da sera nel catalogo V&amp;A</strong></td>
+                        <td>783 abiti</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Numero totale di abiti di produzione francese (intero archivio)</strong></td>
+                        <td>324 abiti</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Abiti francesi datati tra il 1950 e il 1969</strong></td>
+                        <td>132 abiti (16.9% del catalogo complessivo)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stilista più rappresentato nell'intero catalogo</strong></td>
+                        <td>Cristóbal Balenciaga (32 abiti)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stilisti più ricorrenti in Francia (1950–1969)</strong></td>
+                        <td>Cristóbal Balenciaga (25), Christian Dior (12), Hubert de Givenchy (12)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Materiali più utilizzati (Francia, 1950–1969)</strong></td>
+                        <td>Seta (97 abiti), Raso (30 abiti), Organza (27 abiti)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Categoria sociale / ruolo più frequente</strong></td>
+                        <td>Aristocrazia e Nobiltà (30 abiti)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Occasione d'uso più frequente</strong></td>
+                        <td>Sfilata / Esposizione (21 abiti)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Silhouette più ricorrente (1950–1969)</strong></td>
+                        <td>Gonna ampia e vita stretta (New Look) (55 abiti)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lavorazione / tecnica più frequente (1950–1969)</strong></td>
+                        <td>Confezione a macchina / moderna (57 abiti)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Abiti francesi (1950–1969) esposti in galleria</strong></td>
+                        <td>1 su 132</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="grafici-e-tabelle">
+            <h2>Grafici e Tabelle</h2>
+            <p>
+                Di seguito sono riportate le visualizzazioni grafiche prodotte durante l'indagine sui materiali,
+                sulla committenza e sul confronto diacronico tra gli anni Cinquanta e gli anni Sessanta.
+            </p>
+
+            <figure>
+                <img src="materiali_francia_1950_1969.png" alt="Grafico a torta dei materiali più utilizzati negli abiti da sera francesi 1950-1969">
+                <figcaption>
+                    <strong>Figura 1 — Materiali più utilizzati (Francia, 1950–1969):</strong> distribuzione percentuale
+                    dei tessuti e delle applicazioni decorative estratti dalle schede tecniche del museo.
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="indossatrici_e_occasioni_francia_1950_1969.png" alt="Grafico su chi indossava gli abiti da sera francesi e occasioni d'uso">
+                <figcaption>
+                    <strong>Figura 2 — Profilo sociale e occasioni d'uso (1950–1969):</strong> classificazione delle
+                    indossatrici per ruolo o estrazione sociale e dei contesti mondani o istituzionali documentati.
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="confronto tra anni 50 e anni 60.png" alt="Confronto tra anni 50 e anni 60 su profilo sociale e occasioni d'uso">
+                <figcaption>
+                    <strong>Figura 3 — Confronto tra anni '50 e anni '60 (committenza e occasioni):</strong> analisi
+                    comparativa tra il decennio 1950–1959 e il decennio 1960–1969 per verificare continuità e mutamenti
+                    nella clientela e negli eventi sociali.
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="confronto_stilistico_anni50_vs_anni60.png" alt="Confronto stilistico tra anni 50 e anni 60 su silhouette e tecniche sartoriali">
+                <figcaption>
+                    <strong>Figura 4 — Confronto stilistico tra anni '50 e anni '60 (silhouette e tecniche):</strong>
+                    evoluzione delle linee costruttive (dal post-New Look alle silhouette scivolate) e passaggio dalle
+                    strutture interne tradizionali a soluzioni di confezione più moderne.
+                </figcaption>
+            </figure>
+        </section>
+
+        <section id="approfondimento-storico-stilistico">
+            <h2>Approfondimento Storico-Stilistico</h2>
+
+            <h3>Committenza, profilo sociale e occasioni d'uso</h3>
+            <div class="box-testo">
+        <p>Nel periodo 1950‑1969 i vestiti da sera francesi conservati al Victoria and Albert Museum riflettono una clientela prevalentemente di alto livello sociale. La maggior parte delle opere, sebbene non sempre specificata, è attribuita a membri dell’aristocrazia, nobiltà e alta borghesia, con una significativa presenza di socialite e professionisti del settore moda e giornalismo. Anche il cinema, il teatro e il mondo dello spettacolo, seppur in minor misura, hanno contribuito a diffondere questi abiti tra le élite culturali e internazionali. La clientela si estende oltre i confini francesi, con numerosi donatori e proprietari provenienti da paesi anglosassoni e del Commonwealth, evidenziando la reputazione di Paris come capitale della haute couture.</p>
+        <p>Le occasioni d’uso più frequenti sono le serate di gala, i balli e le cene formali, dove la raffinatezza del tessuto e la silhouette elegante si sposano con l’atmosfera di festa. Le sfilate e le esposizioni rappresentano un 15,9 % delle occorrenze, mentre gli eventi istituzionali – ricevimento ufficiale, corte, cerimonie di matrimonio – costituiscono una minoranza, ma testimoniano l’importanza di questi abiti nel contesto delle cerimonie pubbliche. Nonostante la ricchezza di esempi, nessuna figura individuale appare in più di tre abiti, indicando una distribuzione ampia e variegata della clientela.</p>
+            </div>
+
+            <h3>Evoluzione stilistica tra anni '50 e anni '60</h3>
+            <div class="box-testo">
+        <p>Il confronto tra gli abiti da sera francesi degli anni Cinquanta (61 capi) e quelli degli anni Sessanta (71 capi) evidenzia una netta trasformazione delle proporzioni. Nel primo decennio prevalgono le costruzioni scultoree derivate dal New Look, caratterizzate da corpetti sagomati e gonne ampie sostenute da strutture interne, mentre negli anni Sessanta si affermano linee più essenziali, a colonna o scivolate.</p>
+        <p>Sul piano tecnico e decorativo, l&#x27;alta sartorialità manuale, i ricami e le applicazioni luminose continuano a rappresentare un tratto distintivo della couture parigina in entrambi i decenni, ma negli anni Sessanta diminuisce il ricorso a corsetteria e sottogonne rigide a favore di soluzioni costruttive più leggere e moderne, con un impiego crescente di cuciture a macchina, chiusure lampo e fibre sintetiche o miste.</p>
+            </div>
+        </section>
+
+        <footer>
+            Report generato automaticamente in Python dai dati del catalogo Victoria and Albert Museum.
+        </footer>
+    </main>
+</body>
+</html>
